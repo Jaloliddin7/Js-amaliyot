@@ -4,13 +4,13 @@
 
 /* --------------------  1 MASHQ🚩 -------------------- */
 // ushbu arraydagi stringni inxednini toping.
-const myArray = [[false, true], [1, 2], 99, 'yaxshi']
+// const myArray = [[false, true], [1, 2], 99, 'yaxshi']
 
-for (let i = 0; i < myArray.length; i++) {
-  if (typeof myArray[i] == 'string') {
-    console.log('String index:', i)
-  }
-}
+// for (let i = 0; i < myArray.length; i++) {
+//   if (typeof myArray[i] == 'string') {
+//     console.log('String index:', i)
+//   }
+// }
 
 // myArray.forEach((item, i) => {
 //   if (typeof item == 'string') {
@@ -97,26 +97,26 @@ for (let i = 0; i < myArray.length; i++) {
 
 /* --------------------  6 MASHQ🚩 -------------------- */
 // 7) Arraydagi Natural raqamlarni yig’indisini topadigan cod yozing.
-const numbers = [-1, 87, 4, 3.1, -5.5, Infinity, 0, 1, 2, 0.9]
-let naturalNumber = 0
-numbers.forEach((num) => {
-  if (num > 0 && num % 1 == 0 && num !== Infinity ) {
-    naturalNumber += num
-  }
-})
-console.log(naturalNumber)
+// const numbers = [-1, 87, 4, 3.1, -5.5, Infinity, 0, 1, 2, 0.9]
+// let naturalNumber = 0
+// numbers.forEach((num) => {
+//   if (num > 0 && num % 1 == 0 && num !== Infinity ) {
+//     naturalNumber += num
+//   }
+// })
+// console.log(naturalNumber)
 
 /* --------------------  7 MASHQ🚩 -------------------- */
 // 7) Prompt’dan kiritilgan stringlar ichidagi “a” harfi necha marta ishtirok etganini aniqlaydigan cod yozing.
 // “Qalesiz yaxshimisiz ? Yaxshimi ishlar ?” - nechta “a” harifi qatnashganini toping.
 
-// const words = 'Qalesiz yaxshimisiz ? Yaxshimi ishlar ?'
+// const words = 'Assalomu alaykum  AAA'
 
 // let splitWords = words.split('')
 
 // let counter = 0
 // splitWords.forEach((word) => {
-//   if (word == 'a' || word == 'A') {
+//   if (word.toLowerCase() == 'a') {
 //     counter++
 //   }
 // })
@@ -166,12 +166,13 @@ console.log(naturalNumber)
    1 + 2 + 3 + ... + 10 = 55
    1 + 2 + 3 + ... + 7 = 28
 */
-// let counter = 0
-// for (let i = 1; i <= 10; i++) {
-//   counter += i
+// let counter = +prompt("Son kiriting")
+// let num = 0
+// for (let i = 1; i <=counter; i++) {
+//   num += i
 // }
 
-// console.log(counter)
+// console.log(num)
 
 /* -------------------- 12 MASHQ🚩 -------------------- */
 // Berilgan sonni n ga ko’paytirib 1 ni qo’shadigan cod yozing. Birinchi 10 ta holat qaytarilsin.
